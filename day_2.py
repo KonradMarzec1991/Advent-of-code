@@ -48,7 +48,7 @@ def calculate_0index(num_list, noun=None, verb=None):
 
 
 # Part I
-calculate_0index(retrieve_nums('day_2.txt'))
+# calculate_0index(retrieve_nums('day_2.txt'))
 
 
 # Part II
@@ -70,4 +70,6 @@ def main():
 
 
 # Part II
-main()
+if __name__ == '__main__':
+    calculate_0index(retrieve_nums('day_2.txt'))
+    main()
